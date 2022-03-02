@@ -1,0 +1,29 @@
+.header-top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.header-top__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0px;
+}
+.header-top__left-text {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.header-top__socials {
+  display: flex;
+}
+
+ul.header-top__socials li {
+  margin-left: 30px;
+}
+
+ul.header-top__socials li a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+ul.header-top__socials li a:hover {
+  color: #ff7a21;
+  text-decoration: underline;
+}
