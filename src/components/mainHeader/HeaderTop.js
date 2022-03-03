@@ -8,10 +8,12 @@ const HeaderTop = () => {
       <Container>
         <div className="header-top__inner">
           <div className="header-top__left">
-            <div class="header-top__left-text">Welcome to the NFT Academy</div>
+            <div className="header-top__left-text">
+              Welcome to the NFT Academy
+            </div>
           </div>
           <div className="header-top__right">
-            <ul className="header-top__social">
+            <ul className="header-top__social m-0">
               <li className="header-top__social-item">
                 <a
                   className="header-top__social-link"

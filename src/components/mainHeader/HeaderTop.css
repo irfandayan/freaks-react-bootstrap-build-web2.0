@@ -4,7 +4,9 @@
 .header-top__inner {
   display: flex;
   justify-content: space-between;
-  padding: 17px 0px;
+
+  padding: 2.1rem 0;
+  align-items: center;
 }
 .header-top__left-text {
   color: #fff;
@@ -15,7 +17,7 @@
 }
 
 .header-top__social-item {
-  margin-left: 30px;
+  margin-left: 3rem;
 }
 
 .header-top__social-link {
@@ -26,4 +28,14 @@
 .header-top__social-link:hover {
   color: #ff7a21;
   text-decoration: underline;
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+@media (max-width: 576px) {
+  .header-top__left {
+    display: none;
+  }
+  .header-top__inner {
+    justify-content: center;
+  }
 }

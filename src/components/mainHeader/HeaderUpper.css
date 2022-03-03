@@ -1,0 +1,31 @@
+.navigation__inner {
+}
+.navigation__link:hover {
+}
+.navigation__link > span {
+  display: inline-block;
+  color: #fff !important;
+  font-size: 1.4rem;
+  padding: 3.8rem 0 3.8rem 0;
+  letter-spacing: 0.4px;
+  border-top: 3px solid transparent;
+  transition: all 300ms ease;
+}
+.navigation__link > span:hover {
+  border-color: #ff7a21;
+  color: #ff7a21;
+  text-shadow: 0px 0px 30px #ff7a21, 0px 0px 30px #ff7a21;
+}
+.navigation__link:not(:last-child) {
+  margin-right: 5rem;
+}
+
+.navigation__link.active > span {
+  border-color: #ff7a21;
+  color: #ff7a21;
+  text-shadow: 0px 0px 30px #ff7a21, 0px 0px 30px #ff7a21;
+}
+
+.navigation-social {
+  margin-left: 8rem;
+}
