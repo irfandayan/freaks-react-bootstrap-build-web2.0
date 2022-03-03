@@ -1,3 +1,4 @@
+import logo from "../../logo.png";
 import { Container, Navbar, Nav, Image } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -21,7 +22,7 @@ const HeaderUpper = () => {
               title="Freaks University - A NFT Academy"
             >
               <Image
-                src="/images/logo.png"
+                src={logo}
                 alt="Freaks University - A NFT Academy"
                 title="Freaks University - A NFT Academy"
               />

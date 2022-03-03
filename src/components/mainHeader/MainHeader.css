@@ -1,0 +1,9 @@
+.main-header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* display: block; */
+  width: 100%;
+  z-index: 9999;
+  background: none;
+}

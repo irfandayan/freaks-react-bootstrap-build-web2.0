@@ -5,6 +5,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 
 import "./App.css";
 import MainHeader from "./components/mainHeader/MainHeader";
+import BannerSection from "./components/bannerSection/BannerSection";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -13,7 +14,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 300);
   }, []);
 
   return (
@@ -23,7 +24,10 @@ function App() {
           <ClipLoader color={"#ff7a21"} loading={loading} size={45} />
         </div>
       ) : (
-        <MainHeader />
+        <>
+          <MainHeader />
+          <BannerSection />
+        </>
       )}
     </>
   );
