@@ -1,4 +1,12 @@
 import { Container, Navbar, Nav, Image } from "react-bootstrap";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faInstagram,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+
 import "./HeaderUpper.css";
 
 const HeaderUpper = () => {
@@ -56,23 +64,23 @@ const HeaderUpper = () => {
               <Nav className="navigation-social">
                 <Nav.Link
                   href="#home"
-                  className="text-white text-uppercase fs-4"
+                  className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
                 >
-                  Twitter
+                  <FontAwesomeIcon icon={faTwitter} />
                 </Nav.Link>
 
                 <Nav.Link
                   href="#home"
-                  className="text-white text-uppercase fs-4"
+                  className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
                 >
-                  Instagram
+                  <FontAwesomeIcon icon={faInstagram} />
                 </Nav.Link>
 
                 <Nav.Link
                   href="#home"
-                  className="text-white text-uppercase fs-4"
+                  className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
                 >
-                  Youtube
+                  <FontAwesomeIcon icon={faYoutube} />
                 </Nav.Link>
               </Nav>
             </Navbar>

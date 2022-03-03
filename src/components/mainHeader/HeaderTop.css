@@ -2,18 +2,11 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .header-top__inner {
-  display: flex;
-  justify-content: space-between;
-
   padding: 2.1rem 0;
-  align-items: center;
 }
 .header-top__left-text {
   color: #fff;
   font-size: 1.5rem;
-}
-.header-top__social {
-  display: flex;
 }
 
 .header-top__social-item {
