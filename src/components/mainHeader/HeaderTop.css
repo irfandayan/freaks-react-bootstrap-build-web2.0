@@ -10,20 +10,20 @@
   color: #fff;
   font-size: 1.5rem;
 }
-.header-top__socials {
+.header-top__social {
   display: flex;
 }
 
-ul.header-top__socials li {
+.header-top__social-item {
   margin-left: 30px;
 }
 
-ul.header-top__socials li a {
+.header-top__social-link {
   color: #fff;
   font-size: 1.5rem;
   text-decoration: none;
 }
-ul.header-top__socials li a:hover {
+.header-top__social-link:hover {
   color: #ff7a21;
   text-decoration: underline;
 }
