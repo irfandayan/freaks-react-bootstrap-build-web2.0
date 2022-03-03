@@ -36,25 +36,25 @@ const HeaderUpper = () => {
                   <span>Mint Now</span>
                 </Nav.Link>
                 <Nav.Link
-                  href="#link"
+                  href="#opensea"
                   className="navigation__link  text-uppercase p-0"
                 >
                   <span>Opensea</span>
                 </Nav.Link>
                 <Nav.Link
-                  href="#home"
+                  href="#discord"
                   className="navigation__link  text-uppercase p-0"
                 >
                   <span>Discord</span>
                 </Nav.Link>
                 <Nav.Link
-                  href="#link"
+                  href="#telegram"
                   className="navigation__link  text-uppercase p-0"
                 >
                   <span>Telegram</span>
                 </Nav.Link>
                 <Nav.Link
-                  href="#link"
+                  href="#forum"
                   className="navigation__link  text-uppercase p-0"
                 >
                   <span>Forum</span>
@@ -63,21 +63,24 @@ const HeaderUpper = () => {
 
               <Nav className="navigation-social">
                 <Nav.Link
-                  href="#home"
+                  href="https://twitter.com/nftfreaks"
+                  target="_blank"
                   className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
                 >
                   <FontAwesomeIcon icon={faTwitter} />
                 </Nav.Link>
 
                 <Nav.Link
-                  href="#home"
+                  href="https://www.instagram.com/nftfreaks/"
+                  target="_blank"
                   className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
                 >
                   <FontAwesomeIcon icon={faInstagram} />
                 </Nav.Link>
 
                 <Nav.Link
-                  href="#home"
+                  href="https://www.youtube.com/channel/nftfreaks"
+                  target="_blank"
                   className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
                 >
                   <FontAwesomeIcon icon={faYoutube} />
