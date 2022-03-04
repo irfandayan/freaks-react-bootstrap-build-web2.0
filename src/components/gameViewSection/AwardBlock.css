@@ -1,0 +1,69 @@
+.award-block {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.award-block__inner {
+  position: relative;
+  display: block;
+  width: 225px;
+  height: 210px;
+  margin: 0 auto;
+  padding: 65px 60px 30px 60px;
+}
+
+.award-block__inner:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100px;
+  height: 210px;
+  background: url(../../assets/images/icons/award-bg-icon.png) left center
+    no-repeat;
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.award-block__inner:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 100px;
+  height: 210px;
+  background: url(../../assets/images/icons/award-bg-icon.png) right center
+    no-repeat;
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.award-block__inner:hover::after {
+  right: -10px;
+}
+.award-block__inner:hover::before {
+  left: -10px;
+}
+.award-block .upper-title,
+.award-block .lower-title {
+  position: relative;
+  display: block;
+  line-height: 1.4em;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.award-block .lower-title {
+  padding-top: 7px;
+  color: #ff7a21;
+}
