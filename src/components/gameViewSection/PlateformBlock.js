@@ -2,8 +2,8 @@ import { Col } from "react-bootstrap";
 import "./PlateformBlock.css";
 
 const PlateformBlock = ({ icon, title }) => {
-  //   console.log(title.replace(" ", "\n"));
   const PlateformTitle = title.split(" ");
+
   return (
     <Col lg={3} className="plateform-block">
       <div className="plateform-block__inner">

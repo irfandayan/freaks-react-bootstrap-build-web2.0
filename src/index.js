@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import "react-modal-video/css/modal-video.min.css";
+
 // import "./css/main.min.css";
 import "./index.css";
 
