@@ -32,7 +32,7 @@ const HeaderUpper = () => {
               <Nav className="me-auto navigation__inner">
                 <Nav.Link
                   href="#home"
-                  className="navigation__link  active text-uppercase p-0"
+                  className="navigation__link active text-uppercase p-0"
                 >
                   <span>Mint Now</span>
                 </Nav.Link>

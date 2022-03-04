@@ -18,7 +18,7 @@
 .textured-text {
   text-align: center !important;
   margin: 0;
-  background: url("../../assets/images/white-crack-mask.jpg") center !important;
+  background: url("../../assets/images/background/white-crack-mask.jpg") center !important;
   background-size: contain !important;
   margin: auto !important;
   background-clip: text !important;
