@@ -1,7 +1,8 @@
+import StickyHeader from "./StickyHeader";
 import HeaderTop from "./HeaderTop";
 import HeaderUpper from "./HeaderUpper";
+
 import "./MainHeader.css";
-import StickyHeader from "./StickyHeader";
 
 const MainHeader = () => {
   return (
