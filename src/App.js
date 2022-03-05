@@ -11,6 +11,7 @@ import ReivewsSection from "./components/reviewSection/ReivewsSection";
 import FeaturedGame from "./components/featuredGame/FeaturedGame";
 import ParallaxSection from "./components/parrallaxSection/ParallaxSection";
 import FaqSection from "./components/faqSection/FaqSection";
+import MainFooter from "./components/mainFooter/MainFooter";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -37,6 +38,7 @@ function App() {
           <FeaturedGame />
           <ParallaxSection />
           <FaqSection />
+          <MainFooter />
         </>
       )}
     </>

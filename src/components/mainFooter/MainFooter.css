@@ -1,0 +1,72 @@
+.main-footer {
+  position: relative;
+  background-color: #07070f;
+}
+.main-footer .widgets-section {
+  position: relative;
+  padding: 100px 0px 70px;
+}
+.main-footer .footer-bottom .outer-container {
+  position: relative;
+  max-width: 100%;
+  padding: 28px 0px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-footer .bottom-shape-box {
+  position: absolute;
+  left: -50px;
+  top: 0;
+  bottom: -2px;
+  right: -50px;
+  overflow: hidden;
+}
+.main-footer .bottom-shape-box .bg-shape {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  bottom: 0px;
+  right: 50px;
+  background: #090a14;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-footer .bottom-shape-box .bg-shape::before {
+  content: "";
+  position: absolute;
+  left: -13px;
+  top: -15px;
+  width: 50px;
+  height: 130px;
+  background: #090a14;
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-footer .bottom-shape-box .bg-shape::after {
+  content: "";
+  position: absolute;
+  right: -13px;
+  top: -15px;
+  width: 50px;
+  height: 130px;
+  background: #090a14;
+  -webkit-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-footer h1 {
+  color: #fff;
+}
+.main-footer .footer-bottom .copyright {
+  position: relative;
+  padding: 5px 0px;
+  font-size: 15px;
+  color: #727489;
+}
+.main-footer .footer-bottom .copyright a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ff7a21;
+}
