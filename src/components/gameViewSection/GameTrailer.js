@@ -6,7 +6,7 @@ import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
 import "./GameTrailer.css";
 
-import VideoTrailerImage from "../../assets/images/resources/video-trailer-image.jpg";
+import VideoTrailerImage from "../../assets/images/video-trailer-image.jpg";
 
 const GamerTrailer = () => {
   const [isOpen, setOpen] = useState(false);

@@ -1,0 +1,114 @@
+.reviews-section {
+  position: relative;
+  background: #07070f;
+  padding: 100px 0px;
+}
+.top-pattern-layer-dark {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -73px;
+  width: 100%;
+  height: 74px;
+  background: url(../../assets/images/background/pattern-1-dark.png) center
+    bottom repeat-x;
+  z-index: 2;
+}
+.bottom-pattern-layer-dark {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -73px;
+  width: 100%;
+  height: 74px;
+  background: url(../../assets/images/background/pattern-2-dark.png) center top
+    repeat-x;
+  z-index: 2;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-images-slider .swiper-slide {
+  padding-top: 0%;
+  overflow: hidden;
+  position: relative;
+}
+.product-images-slider .swiper-slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.product-images-slider .swiper-button-prev {
+  left: 0;
+  color: #000;
+}
+.product-images-slider .swiper-button-next {
+  right: 0;
+  color: #000;
+}
+.product-images-slider-thumbs .swiper-slide {
+  cursor: pointer;
+  border: 1px solid #dddbdb;
+}
+.product-images-slider-thumbs .swiper-slide-thumb-active {
+  border-color: #f00;
+}
+.product-images-slider-thumbs-wrapper {
+  width: 100%;
+  padding-top: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.product-images-slider-thumbs-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.product-images-slider {
+  width: 50% !important;
+  position: relative;
+}
+.product-images-slider-thumbs {
+  width: 29% !important;
+}
+.product-images-slider .swiper-button-prev {
+  position: absolute;
+  top: 20px;
+  left: 90%;
+}
+.product-images-slider .swiper-button-next {
+  position: absolute;
+  top: 20px;
+}
