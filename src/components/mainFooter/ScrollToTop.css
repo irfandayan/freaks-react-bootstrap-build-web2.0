@@ -1,0 +1,36 @@
+.scroll-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 54px;
+  height: 54px;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 54px;
+  text-align: center;
+  z-index: 100;
+  cursor: pointer;
+  background: #25283a;
+  border-radius: 0px;
+  margin-left: -26px;
+  /* display: none; */
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  box-shadow: 2px 2px 0px #ff7a21;
+}
+
+.scroll-to-top:hover {
+  background: #ff7a21;
+  color: #ffffff;
+  box-shadow: 2px 2px 0px #25283a;
+}
+.scroll-to-top svg {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 51%;
+  width: 14px;
+  height: 14px;
+}

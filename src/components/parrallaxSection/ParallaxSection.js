@@ -7,7 +7,7 @@ const ParallaxSection = () => {
   return (
     <div className="parallax-section">
       <div
-        class="image-layer"
+        className="image-layer"
         style={{ backgroundImage: `url(${ParallaxIamge})` }}
       ></div>
       <Container>
