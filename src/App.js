@@ -9,6 +9,7 @@ import GameViewSection from "./components/gameViewSection/GameViewSection";
 // import ReivewSection from "./components/reviewSection/ReivewSection";
 import ReivewsSection from "./components/reviewSection/ReivewsSection";
 import FeaturedGame from "./components/featuredGame/FeaturedGame";
+import ParallaxSection from "./components/parrallaxSection/ParallaxSection";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -33,6 +34,7 @@ function App() {
           <GameViewSection />
           <ReivewsSection />
           <FeaturedGame />
+          <ParallaxSection />
         </>
       )}
     </>
