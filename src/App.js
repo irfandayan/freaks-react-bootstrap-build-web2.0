@@ -8,6 +8,7 @@ import BannerSection from "./components/bannerSection/BannerSection";
 import GameViewSection from "./components/gameViewSection/GameViewSection";
 // import ReivewSection from "./components/reviewSection/ReivewSection";
 import ReivewsSection from "./components/reviewSection/ReivewsSection";
+import FeaturedGame from "./components/featuredGame/FeaturedGame";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -30,8 +31,8 @@ function App() {
           <MainHeader />
           <BannerSection />
           <GameViewSection />
-          {/* <ReivewSection /> */}
           <ReivewsSection />
+          <FeaturedGame />
         </>
       )}
     </>

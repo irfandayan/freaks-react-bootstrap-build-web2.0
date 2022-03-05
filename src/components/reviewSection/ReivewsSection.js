@@ -35,46 +35,31 @@ const ReivewSection = () => {
           >
             <SwiperSlide>
               <div className="review-thumbs">
-                <img
-                  src="/images/resources/rev-thumb-1.jpg"
-                  alt="review photo"
-                />
+                <img src="/images/resources/rev-thumb-1.jpg" alt="review 1" />
                 {/* <img src="https://swiperjs.com/demos/images/nature-1.jpg" /> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="review-thumbs">
-                <img
-                  src="/images/resources/rev-thumb-2.jpg"
-                  alt="review photo"
-                />
+                <img src="/images/resources/rev-thumb-2.jpg" alt="review 2" />
                 {/* <img src="https://swiperjs.com/demos/images/nature-2.jpg" /> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="review-thumbs">
-                <img
-                  src="/images/resources/rev-thumb-3.jpg"
-                  alt="review photo"
-                />
+                <img src="/images/resources/rev-thumb-3.jpg" alt="review 3" />
                 {/* <img src="https://swiperjs.com/demos/images/nature-3.jpg" /> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="review-thumbs">
-                <img
-                  src="/images/resources/rev-thumb-4.jpg"
-                  alt="review photo"
-                />
+                <img src="/images/resources/rev-thumb-4.jpg" alt="review 4" />
                 {/* <img src="https://swiperjs.com/demos/images/nature-4.jpg" /> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="review-thumbs">
-                <img
-                  src="/images/resources/rev-thumb-5.jpg"
-                  alt="review photo"
-                />
+                <img src="/images/resources/rev-thumb-5.jpg" alt="review 5" />
                 {/* <img src="https://swiperjs.com/demos/images/nature-5.jpg" /> */}
               </div>
             </SwiperSlide>
