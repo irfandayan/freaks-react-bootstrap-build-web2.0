@@ -14,7 +14,7 @@ const ParallaxSection = () => {
         <Row>
           <div className="content-box">
             <h2>CREATING NFT LEGENDS</h2>
-            <div class="text-box">
+            <div className="text-box">
               We understand you know how to make and create art. Let us show you
               how to structure your art works into a organized program which
               allows you to stick out from the rest of the crowd.
