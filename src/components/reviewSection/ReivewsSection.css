@@ -1,0 +1,124 @@
+.reviews-section {
+  position: relative;
+  background: #07070f;
+  padding: 100px 0px;
+}
+.top-pattern-layer-dark {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -73px;
+  width: 100%;
+  height: 74px;
+  background: url(../../assets/images/background/pattern-1-dark.png) center
+    bottom repeat-x;
+  z-index: 2;
+}
+.bottom-pattern-layer-dark {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -73px;
+  width: 100%;
+  height: 74px;
+  background: url(../../assets/images/background/pattern-2-dark.png) center top
+    repeat-x;
+  z-index: 2;
+}
+.reviews-section .sec-title {
+  margin-bottom: 45px;
+}
+.reviews-section__slider-wrapper {
+  position: relative;
+  min-height: 100px;
+  display: flex;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide {
+  background: transparent !important;
+}
+
+.swiper-button-prev {
+  left: 75% !important;
+
+  width: 50px !important;
+  color: #737373;
+}
+
+.swiper-button-next {
+  right: 15% !important;
+  width: 50px !important;
+  color: #737373;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 30px !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  top: 67% !important;
+}
+
+.review-images-slider-thumbs {
+  flex: 2;
+}
+.review-text-slider {
+  flex: 6.5;
+}
+
+.swiper-slide-thumb-active .review-thumbs {
+  border: 7px solid #ff7a21;
+  box-sizing: border-box !important;
+}
+
+.review-thumbs {
+  cursor: pointer;
+}
+.review-text {
+  padding-bottom: 20px;
+  color: #fff;
+  font-weight: 300;
+}
+.review-text p {
+  margin-bottom: 30px;
+}
+.review-text h2 {
+  text-align: left;
+  font-weight: 300;
+  color: #737373;
+}
+.review-text h2 span {
+  color: #ff7a21;
+}

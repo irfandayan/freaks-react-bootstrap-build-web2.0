@@ -5,9 +5,9 @@ import "./GameAwards.css";
 const GameAwards = () => {
   return (
     <div className="game-awards">
-      <div class="sec-title centered">
+      <div className="sec-title centered">
         <h2>4 Levels of Admission</h2>
-        <span class="bottom-curve"></span>
+        <span className="bottom-curve"></span>
       </div>
 
       <div className="awards">

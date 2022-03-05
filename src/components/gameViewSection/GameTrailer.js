@@ -13,7 +13,7 @@ const GamerTrailer = () => {
   return (
     <div className="gamer-trailer">
       {/* Game Trailer Title */}
-      <div className="sec-title text-center">
+      <div className="sec-title centered">
         <h2>What to expect?</h2>
         <span className="bottom-curve"></span>
       </div>

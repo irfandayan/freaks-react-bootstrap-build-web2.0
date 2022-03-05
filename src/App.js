@@ -1,12 +1,13 @@
-import logo from "./logo.svg";
-
 import { useState, useEffect } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
 
 import "./App.css";
+
 import MainHeader from "./components/mainHeader/MainHeader";
 import BannerSection from "./components/bannerSection/BannerSection";
 import GameViewSection from "./components/gameViewSection/GameViewSection";
+// import ReivewSection from "./components/reviewSection/ReivewSection";
+import ReivewsSection from "./components/reviewSection/ReivewsSection";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -29,6 +30,8 @@ function App() {
           <MainHeader />
           <BannerSection />
           <GameViewSection />
+          {/* <ReivewSection /> */}
+          <ReivewsSection />
         </>
       )}
     </>
