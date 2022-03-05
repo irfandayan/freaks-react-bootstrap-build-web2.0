@@ -9,7 +9,7 @@
 }
 .navigation__link > span:hover {
   border-color: #ff7a21;
-  color: #ff7a21;
+  color: #ff7a21 !important;
   text-shadow: 0px 0px 30px #ff7a21, 0px 0px 30px #ff7a21;
 }
 .navigation__link:not(:last-child) {
