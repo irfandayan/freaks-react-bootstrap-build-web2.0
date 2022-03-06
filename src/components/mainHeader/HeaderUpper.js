@@ -65,37 +65,41 @@ const HeaderUpper = ({ setShowMobileMenu, showMobileMenu }) => {
                     <span>Forum</span>
                   </Nav.Link>
                 </Nav>
+                <div className="navigation-social__wrapper">
+                  <Nav className="navigation-social">
+                    <Nav.Link
+                      href="https://twitter.com/nftfreaks"
+                      target="_blank"
+                      className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
+                    >
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </Nav.Link>
 
-                <Nav className="navigation-social">
-                  <Nav.Link
-                    href="https://twitter.com/nftfreaks"
-                    target="_blank"
-                    className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
-                  >
-                    <FontAwesomeIcon icon={faTwitter} />
-                  </Nav.Link>
+                    <Nav.Link
+                      href="https://www.instagram.com/nftfreaks/"
+                      target="_blank"
+                      className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
+                    >
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </Nav.Link>
 
-                  <Nav.Link
-                    href="https://www.instagram.com/nftfreaks/"
-                    target="_blank"
-                    className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
+                    <Nav.Link
+                      href="https://www.youtube.com/channel/nftfreaks"
+                      target="_blank"
+                      className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
+                    >
+                      <FontAwesomeIcon icon={faYoutube} />
+                    </Nav.Link>
+                  </Nav>
+                  <div
+                    className="mobile-nav-toggler"
+                    onClick={setShowMobileMenu}
                   >
-                    <FontAwesomeIcon icon={faInstagram} />
-                  </Nav.Link>
-
-                  <Nav.Link
-                    href="https://www.youtube.com/channel/nftfreaks"
-                    target="_blank"
-                    className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
-                  >
-                    <FontAwesomeIcon icon={faYoutube} />
-                  </Nav.Link>
-                </Nav>
+                    <FontAwesomeIcon icon={faBars} />
+                  </div>
+                </div>
               </Navbar>
             </Navbar>
-            <div className="mobile-nav-toggler" onClick={setShowMobileMenu}>
-              <FontAwesomeIcon icon={faBars} />
-            </div>
           </div>
         </Container>
       </div>

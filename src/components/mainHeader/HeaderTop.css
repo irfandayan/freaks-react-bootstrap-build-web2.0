@@ -30,6 +30,13 @@
     display: none;
   }
   .header-top__inner {
-    justify-content: center;
+    justify-content: center !important;
+  }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+@media (max-width: 480px) {
+  .navigation-social {
+    display: none;
   }
 }

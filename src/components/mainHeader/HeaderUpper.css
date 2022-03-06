@@ -49,5 +49,23 @@
   color: #ff7a21;
   margin-left: 25px;
   margin-top: 25px;
-  display: block;
+  display: none;
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (max-width: 992px) {
+  .navigation__inner {
+    display: none;
+  }
+  .mobile-nav-toggler {
+    display: block;
+  }
+
+  .navigation-social__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .mobile-nav-toggler {
+    margin-top: 0;
+  }
 }
