@@ -361,3 +361,35 @@
 .banner-section .owl-dots .owl-dot.active span {
   background: #ff7a21;
 }
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (max-width: 992px) {
+  .banner-carousel .content-box .upper-subtitle {
+    font-size: 27px;
+  }
+  .banner-carousel .content-box h1 {
+    font-size: 65px;
+  }
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+@media (max-width: 768px) {
+  .banner-carousel .content-box .upper-subtitle {
+    font-size: 20px;
+  }
+  .banner-carousel .content-box h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+@media (max-width: 576px) {
+  .banner-carousel .content-box .upper-subtitle {
+    font-size: 18px;
+  }
+  .banner-carousel .content-box h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
