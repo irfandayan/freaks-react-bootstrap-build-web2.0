@@ -5,7 +5,7 @@ const PlateformBlock = ({ icon, title }) => {
   const PlateformTitle = title.split(" ");
 
   return (
-    <Col lg={3} className="plateform-block">
+    <Col lg={3} md={4} sm={6} className="plateform-block">
       <div className="plateform-block__inner">
         <div className={`plateform-block__title ${icon}-icon`}>
           <div>{PlateformTitle[0]}</div>
