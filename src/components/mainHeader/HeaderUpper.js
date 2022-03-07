@@ -1,8 +1,6 @@
 import logo from "../../logo.png";
 import { Container, Navbar, Nav, Image } from "react-bootstrap";
 
-import MobileMenu from "./../mobileMenu/MobileMenu";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import {

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import MobileMenu from "../mobileMenu/MobileMenu";
 import StickyHeader from "./StickyHeader";
 import HeaderTop from "./HeaderTop";
