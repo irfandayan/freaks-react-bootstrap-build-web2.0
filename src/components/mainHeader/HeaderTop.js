@@ -19,6 +19,7 @@ const HeaderTop = () => {
                   className="header-top__social-link"
                   href="http://www.twitter.com/nftfreaks"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   @nftfreaks
                 </a>
@@ -28,6 +29,7 @@ const HeaderTop = () => {
                   className="header-top__social-link"
                   href="http://www.twitter.com/mentalist420"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   @mentalist420
                 </a>

@@ -28,27 +28,45 @@ const MobileMenu = ({ setShowMobileMenu, showMobileMenu }) => {
           <div className="menu-box__inner">
             <div className="menu-box__container">
               <div className="nav-logo">
-                <a href="#">
-                  <img className="nav-log__image" src={logo} alt="" />
+                <a href="#home">
+                  <img
+                    className="nav-log__image"
+                    src={logo}
+                    alt=""
+                    rel="noreferrer"
+                  />
                 </a>
               </div>
               <div className="menu-outer">
                 <div className="collapse navbar-collapse clearfix">
                   <ul className="mb-navigation clearfix">
                     <li className="current dropdown">
-                      <a href="#"> Mint Now</a>
+                      <a href="#Mint" rel="noreferrer">
+                        {" "}
+                        Mint Now
+                      </a>
                     </li>
                     <li className="dropdown">
-                      <a href="#"> OpenSea</a>
+                      <a href="#OpenSea" rel="noreferrer">
+                        {" "}
+                        OpenSea
+                      </a>
                     </li>
                     <li className="dropdown">
-                      <a href="">Discord</a>
+                      <a href="#Discord" rel="noreferrer">
+                        Discord
+                      </a>
                     </li>{" "}
                     <li className="dropdown">
-                      <a href="#">Telegram</a>
+                      <a href="#Telegram" rel="noreferrer">
+                        Telegram
+                      </a>
                     </li>
                     <li className="dropdown">
-                      <a href="#"> Forum</a>
+                      <a href="#Forum" rel="noreferrer">
+                        {" "}
+                        Forum
+                      </a>
                     </li>
                   </ul>
                 </div>

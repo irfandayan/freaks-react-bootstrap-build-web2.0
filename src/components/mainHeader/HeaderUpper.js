@@ -22,6 +22,7 @@ const HeaderUpper = ({ setShowMobileMenu, showMobileMenu }) => {
                 className="p-0"
                 href="#home"
                 title="Freaks University - A NFT Academy"
+                rel="noreferrer"
               >
                 <Image
                   src={logo}
@@ -35,24 +36,28 @@ const HeaderUpper = ({ setShowMobileMenu, showMobileMenu }) => {
                   <Nav.Link
                     href="#home"
                     className="navigation__link active text-uppercase p-0"
+                    rel="noreferrer"
                   >
                     <span>Mint Now</span>
                   </Nav.Link>
                   <Nav.Link
                     href="#opensea"
                     className="navigation__link  text-uppercase p-0"
+                    rel="noreferrer"
                   >
                     <span>Opensea</span>
                   </Nav.Link>
                   <Nav.Link
                     href="#discord"
                     className="navigation__link  text-uppercase p-0"
+                    rel="noreferrer"
                   >
                     <span>Discord</span>
                   </Nav.Link>
                   <Nav.Link
                     href="#telegram"
                     className="navigation__link  text-uppercase p-0"
+                    rel="noreferrer"
                   >
                     <span>Telegram</span>
                   </Nav.Link>
@@ -69,6 +74,7 @@ const HeaderUpper = ({ setShowMobileMenu, showMobileMenu }) => {
                       href="https://twitter.com/nftfreaks"
                       target="_blank"
                       className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
+                      rel="noreferrer"
                     >
                       <FontAwesomeIcon icon={faTwitter} />
                     </Nav.Link>
@@ -77,6 +83,7 @@ const HeaderUpper = ({ setShowMobileMenu, showMobileMenu }) => {
                       href="https://www.instagram.com/nftfreaks/"
                       target="_blank"
                       className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
+                      rel="noreferrer"
                     >
                       <FontAwesomeIcon icon={faInstagram} />
                     </Nav.Link>
@@ -85,6 +92,7 @@ const HeaderUpper = ({ setShowMobileMenu, showMobileMenu }) => {
                       href="https://www.youtube.com/channel/nftfreaks"
                       target="_blank"
                       className="navigation-social__link d-flex justify-content-center align-items-center ms-3  text-uppercase fs-4"
+                      rel="noreferrer"
                     >
                       <FontAwesomeIcon icon={faYoutube} />
                     </Nav.Link>
